@@ -1,0 +1,20 @@
+---
+searchable: false
+---
+{% assign items = site.pages %}
+[
+	{% for item in items %}{% if item.searchable == false %}
+		{
+			"title"     : " ",
+			"content"   : " ",
+			"url"       : " ",
+			"searchable": 0
+		}{% else %}
+		{
+			"title"     : {{ item.title | jsonify }},
+			"content"   : {{ item.content | strip_html | jsonify | replace:'\n',' ' | replace:'   ',' ' | replace:'  ',' ' }},
+			"url"       : {{ item.url | jsonify }},
+			"searchable": 1
+		}{% endif %}{% unless forloop.last %},{% endunless %}
+	{% endfor %}
+]

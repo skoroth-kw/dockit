@@ -1,0 +1,51 @@
+<nav class="nav  nav--docs" data-state="closed">
+
+	<ul class="nav-list  nav-list--parent">
+
+		{% for item in site.data.navigation.navdocs %}
+
+		<li class="nav-item  nav-item--parent">
+
+			{% if item.url == null %}
+
+				{% if item.icon != null %}<span class="octicon octicon-{{ item.icon }}"></span>{% endif %}<span class="nav-subtitle">{{ item.title }}</span>
+
+			{% else %}
+
+				{% if item.icon != null %}<span class="octicon octicon-{{ item.icon }}"></span>{% endif %}<a href="{{ item.url }}" class="nav-subtitle{% if page.url == item.url %}  active{% endif %}">{{ item.title }}</a>
+
+			{% endif %}
+
+			{% if item.subnav %}
+
+				<ul class="nav-list  nav-list--child">
+
+					{% for subitem in item.subnav %}
+
+						<li class="nav-item  nav-item--child{% if subitem.url == null %}  nav-item--parent{% endif %}">
+
+							{% if subitem.url == null %}
+
+								{% if subitem.icon != null %}<span class="octicon octicon-{{ subitem.icon }}"></span>{% endif %}<span class="nav-subtitle">{{ subitem.title }}</span>
+
+							{% else %}
+
+								{% if subitem.icon != null %}<span class="octicon octicon-{{ subitem.icon }}"></span>{% endif %}<a href="{{ subitem.url }}" {% if page.url == subitem.url %}class="active"{% endif %}>{{ subitem.title }}</a>
+
+							{% endif %}
+
+						</li>
+
+					{% endfor %}
+
+				</ul>
+
+			{% endif %}
+
+		</li>
+
+		{% endfor %}
+
+	</ul>
+
+</nav>

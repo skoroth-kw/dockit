@@ -1,0 +1,21 @@
+<h3>Categories</h3>
+
+<nav class="nav  nav--categories">
+
+	<ul class="nav-list">
+
+		{% for category in site.categories %}
+
+		<li class="nav-item">
+
+			<a href="{{ category | first }}" {% if page.url == category | first %}class="active"{% endif %}>{{ category | first }}</a>
+
+		</li>
+
+		{% endfor %}
+
+	</ul>
+
+</nav>
+
+<span class="octicon octicon-arrow-up"></span><a href="#top" data-scroll="true">Back to top</a>

@@ -1,0 +1,17 @@
+<h4>Version History</h4>
+
+<nav class="nav  nav--versions">
+
+<ol class="nav-list">
+
+	{% for version in page.versions %}
+
+		<li class="nav-item">
+
+			<a href="{{ version.url }}" {% if page.url == version.url %}class="active"{% endif %}>{{ version.version }}</a>
+
+		</li>
+
+	{% endfor %}
+
+</ol>
