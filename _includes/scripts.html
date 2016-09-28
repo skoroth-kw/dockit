@@ -17,11 +17,12 @@
 			FastClick.attach(document.body);
 		}, false);
 	}
-
+    var s3bucket = $S3BUCKET$;
 	$(document).ready(function(){
 	    $('a').on('click', function(e){
 		var element  = $(this);
-		alert($(this).attr('href'));
+	    location.href = $(this).attr('href')+"?s3bucket="+s3bucket;
+    	e.preventDefault();
 	    });
 	});
    
