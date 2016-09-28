@@ -6,6 +6,7 @@
 <script src="/js/classList.js"></script>
 <script src="/js/gumshoe.js"></script>
 <script src="/js/fastclick.js"></script>
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 <script>
 	smoothScroll.init();
 	gumshoe.init({
@@ -16,6 +17,12 @@
 			FastClick.attach(document.body);
 		}, false);
 	}
+
+   $('a').live('click', function(e){
+	var element  = $(this);
+	alert($(this).attr('href'));
+    });
+
 </script>
 <!--[if IE]>
 	<script src="/js/html5.js"></script>
