@@ -20,8 +20,12 @@
     var s3bucket = $S3BUCKET$;
 	$(document).ready(function(){
 	    $('a').on('click', function(e){
-		var element  = $(this);
-	    location.href = $(this).attr('href')+"?s3bucket="+s3bucket;
+		var href = $(this).attr('href');
+		if(href.indexOf('?')>-1){
+			location.href = $(this).attr('href')+"&s3bucket="+s3bucket;
+		}else{
+			location.href = $(this).attr('href')+"&s3bucket="+s3bucket;
+		}
     	e.preventDefault();
 	    });
 	});
