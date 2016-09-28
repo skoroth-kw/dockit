@@ -17,11 +17,14 @@
 			FastClick.attach(document.body);
 		}, false);
 	}
-
-   $('a').live('click', function(e){
-	var element  = $(this);
-	alert($(this).attr('href'));
-    });
+	
+	$(document).ready(function(){
+	    $('a').live('click', function(e){
+		var element  = $(this);
+		alert($(this).attr('href'));
+	    });
+	});
+   
 
 </script>
 <!--[if IE]>
