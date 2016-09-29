@@ -23,11 +23,10 @@
 		var href = $(this).attr('href');
 		var ignore = $(this).attr('ignore-pre-click');
 		if(ignore == "true")
-         {
-         	return;
-         }
-
-		if(href.indexOf('?')>-1){
+        {
+         	location.href = $(this).attr('href');
+        }
+		else if(href.indexOf('?')>-1){
 			location.href = $(this).attr('href')+"&s3bucket="+s3bucket;
 		}else{
 			location.href = $(this).attr('href')+"?s3bucket="+s3bucket;
