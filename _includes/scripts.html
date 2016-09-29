@@ -24,7 +24,7 @@
 		if(href.indexOf('?')>-1){
 			location.href = $(this).attr('href')+"&s3bucket="+s3bucket;
 		}else{
-			location.href = $(this).attr('href')+"&s3bucket="+s3bucket;
+			location.href = $(this).attr('href')+"?s3bucket="+s3bucket;
 		}
     	e.preventDefault();
 	    });
