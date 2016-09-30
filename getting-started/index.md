@@ -1,30 +1,20 @@
 ---
 layout: doc
-title: Getting Started
+title: Blazewater Documentation
+published: true
 ---
 
-# Getting Started
+# What this is all About
 
 You'll need the following before you start working on a template:
 
-1. ## Access to the Editor
-  * If you have come to us through the editor, you will already be signed up and logged in via your hosting/telecoms package. [Head straight to Step 2](#enable-developer-mode).
-  * If you already have an account but are not logged in, do so now.
-  * Don't have an account? Head to our [developer partner page](http://www.basekit.com/our-partners) to find a partner to sign up with.
+## So, there’s this thing called Blazewater.
+It’s a piece of software to which developers, product managers and planners have devoted thousands of hours over the past couple of years. It’s going to transform the process of building accurate, actionable financial plans from hours of tinkering in Excel to the push of a button on a slick, Web-based interface. It’s going to help us bring on new clients while ensuring those with whom we now work have up-to-date, relevant advice as they pursue financial progress.
 
-2. ## Enable Developer Mode 
-   To do this, simply click the **Developer** tab in the editor. 
-   By accepting the terms and conditions you are confirming you have a good knowledge of HTML and CSS, as you will not be able to use this feature without these skills.
+But how does it work? Why did it recommend that level of retirement savings, and in that type of account? Why does my client’s flex spending number look different now than it did before? How does it factor in my clients’ bonus? These are a few of the many questions that conscientious planners will raise as they begin using a tool that, although quick and efficient, offers less in the way of immediate insight as to its calculations.
 
-3. ## Editing code
-   When opening the **Developer** tab the code editor will appear. You can start editing your template's files via this editor. Once you have completed your changes, click Save. Your site will reload and your changes will be visible.
+That’s where this documentation comes in: it’s an evolving story that seeks to explain the details of Blazewater’s algorithm: that is, how and why it produces the calculations it does. It’s an unwieldy set of documents that brings you right into the weeds of the math behind the 50,000 lines of code that comprise Blazewater.
 
-{% include imagecenter.html image="/assets/content/getting-started/editor.jpg" alt="BaseKit Code Editor" %}
+Before diving in, let’s talk about the process through which this documentation emerged, which will lead to an explanation of its purpose, its scope, and the ways in which it will change in the months and years to come.
 
----
 
-## Developing Locally
-
-BaseKit has built the **Template Development Kit**, which allows you to view and run templates on your own machine. Simply follow the instructions on this page: **[Building templates on your local machine](/getting-started/local-development/)**.
-
-{% include imagecenter.html image="/assets/content/getting-started/tdk.png" alt="BaseKit Code Editor" %}
