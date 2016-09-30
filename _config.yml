@@ -2,8 +2,8 @@
 url: http://docs.lv.com
 title: Blazewater Documentation
 description: Official documentation for building websites on the BaseKit platform
-repository: https://github.com/skoroth/basekit
-editor: http://127.0.0.1:3000/#skoroth/basekit
+repository: https://github.com/skoroth/dockit
+editor: http://127.0.0.1:3000/#skoroth/dockit
 # Site details
 facebook:
   page: Blazewater
