@@ -15,7 +15,7 @@ navdocs:
 # GETTING STARTED
 - title: Introduction
   url: /introduction/
-  icon: milestone
+  icon: unfold
   
 # TEMPLATING
 - title: Templating
