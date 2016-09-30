@@ -16,5 +16,3 @@ But how does it work? Why did it recommend that level of retirement savings, and
 That’s where this documentation comes in: it’s an evolving story that seeks to explain the details of Blazewater’s algorithm: that is, how and why it produces the calculations it does. It’s an unwieldy set of documents that brings you right into the weeds of the math behind the 50,000 lines of code that comprise Blazewater.
 
 Before diving in, let’s talk about the process through which this documentation emerged, which will lead to an explanation of its purpose, its scope, and the ways in which it will change in the months and years to come.
-
-
