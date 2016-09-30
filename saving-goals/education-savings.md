@@ -29,7 +29,8 @@ On that note, we assume all education types except “Private – K-12” and �
 For “college” savings, a category that, in Blazewater world, includes only undergrad, we ask whether the client seeks to send a given child to public or private school.
 
 As per the “Constants, Assumptions and Switches” section, we assume the following costs for college and public and private colleges:
-Private
+
+###Private
 - Tuition: $29,056
 - Board: $10,462
 - Public
