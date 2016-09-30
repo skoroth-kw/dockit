@@ -1,3 +1,9 @@
+---
+layout: doc
+title: Growing Your Family
+published: true
+---
+
 ## Growing Family Goal
 
 Blazewater approaches this goal much the same way it approaches others, but with one key difference: it factors in additional logic around employment leave associated with having a baby. In the onboarding process, the software seeks start- and end-times for family leave, asks to what extent compensation will continue during leave, and who (the client, partner, or both) will temporarily cease to earn an income.
