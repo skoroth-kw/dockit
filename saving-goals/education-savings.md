@@ -18,7 +18,7 @@ One of our first steps in approaching an education savings goal is to determine 
 * “Other 529 eligible”
 * “Other”
 
-Note that there’s no year amount next to “Private – K-12.” If it seems odd that we’re claiming ignorance about the length of an education phase that seems clearly delineated, keep in mind that while some clients might aim to pay for all of their kid(s)’ primary and secondary education, some might seek to pay for only a portion of it.
+> Note that there’s no year amount next to “Private – K-12.” If it seems odd that we’re claiming ignorance about the length of an education phase that seems clearly delineated, keep in mind that while some clients might aim to pay for all of their kid(s)’ primary and secondary education, some might seek to pay for only a portion of it.
 
 While the same is true for other educational pursuits – parents might seek to pay for the first two years of a child’s undergraduate education but rely on them to cover the next two - the desire to fund all of a child’s undergrad education is common enough that we use four years as the default.
 
