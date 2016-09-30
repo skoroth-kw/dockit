@@ -29,7 +29,7 @@ For “college” savings, a category that, in Blazewater world, includes only u
 
 As per the “Constants, Assumptions and Switches” section, we assume the following costs for college and public and private colleges:
 
-_Private_
+**Private**
 - Tuition: $29,056
 - Board: $10,462
 - Public
