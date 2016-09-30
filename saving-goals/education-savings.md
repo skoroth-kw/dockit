@@ -31,11 +31,14 @@ For “college” savings, a category that, in Blazewater world, includes only u
 
 As per the “Constants, Assumptions and Switches” section, we assume the following costs for college and public and private colleges:
 
--Private
-1. Tuition: $29,056
-1. Board: $10,462
-1. Public
-1. Tuition: $8,655
-1. Board: $9,205
+_Private_
+- Tuition: $29,056
+- Board: $10,462
+- Public
+- Tuition: $8,655
+- Board: $9,205
+
+
+
 
 We assume the cost of tuition and board for undergrad inflates at 6% per year; we assume costs associate with other types of education inflate at 3% per year. The tech specs (i.e., the outline our developers wrote, on which I’m basing this documentation) is silent on the whether we have any set assumptions on the present-day cost of education types such as, say, medicine and law school. Our assumptions for the returns on 529 accounts match those of our assumptions for other account types (which you can see here) with one notable exception: we assume 529 assets will earn no return during the years the child is in college.
