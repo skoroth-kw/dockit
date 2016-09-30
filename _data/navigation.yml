@@ -19,11 +19,11 @@ navdocs:
   
 # SAVINGGOALS
 - title: Saving Goals
-  url: /SavingGoals/
+  url: /saving-goals/
   icon: ruby
   subnav:
   - title: Growing Your Family
-    url: /SavingGoals/GrowingYourFamily/
+    url: /saving-goals/growing-your-family/
 
 # DATA
 - title: Data
