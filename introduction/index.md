@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Blazewater Documentation
+title: Introduction
 published: true
 ---
 
