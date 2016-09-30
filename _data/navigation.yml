@@ -18,7 +18,7 @@ navdocs:
   icon: unfold
   
 # SAVINGGOALS
-- title: Saving Goals
+- title: SavingGoals
   url: /saving-goals/
   icon: ruby
   subnav:
