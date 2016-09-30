@@ -13,19 +13,10 @@ navmain:
 navdocs:
 
 # GETTING STARTED
-- title: Getting Started
-  url: /getting-started/
+- title: Introduction
+  url: /introduction/
   icon: milestone
-  subnav:
-  - title: Local Development
-    url: /getting-started/local-development/
-  - title: Downloading a Template
-    url: /getting-started/downloading/
-  - title: Editing a Template
-    url: /getting-started/editing/
-  - title: Uploading a Template
-    url: /getting-started/uploading/
-
+  
 # TEMPLATING
 - title: Templating
   icon: file-code
