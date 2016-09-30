@@ -7,6 +7,7 @@ published: true
 ## Education Savings
 
 One of our first steps in approaching an education savings goal is to determine the type of education the client is saving for. Among the educational types listed below, Blazewater assumes a set duration for those accompanied by an amount of years; for others, the Planner can add the amount of years the client expects the educational pursuit to last.
+
 * Vocational
 * Private – K-12
 * Undergrad (4 years)
