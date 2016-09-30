@@ -30,12 +30,14 @@ For “college” savings, a category that, in Blazewater world, includes only u
 
 As per the “Constants, Assumptions and Switches” section, we assume the following costs for college and public and private colleges:
 
-###Private
+Private
 - Tuition: $29,056
 - Board: $10,462
-- Public
+
+Public
 - Tuition: $8,655
 - Board: $9,205
+
 
 We assume the cost of tuition and board for undergrad inflates at 6% per year; we assume costs associate with other types of education inflate at 3% per year. The tech specs (i.e., the outline our developers wrote, on which I’m basing this documentation) is silent on the whether we have any set assumptions on the present-day cost of education types such as, say, medicine and law school. 
 
