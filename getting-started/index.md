@@ -6,7 +6,7 @@ published: true
 
 # What this is all About
 
-You'll need the following before you start working on a template:
+So, there’s this thing called Blazewater.
 
 ## So, there’s this thing called Blazewater.
 It’s a piece of software to which developers, product managers and planners have devoted thousands of hours over the past couple of years. It’s going to transform the process of building accurate, actionable financial plans from hours of tinkering in Excel to the push of a button on a slick, Web-based interface. It’s going to help us bring on new clients while ensuring those with whom we now work have up-to-date, relevant advice as they pursue financial progress.
