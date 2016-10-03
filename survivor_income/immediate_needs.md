@@ -13,7 +13,7 @@ In addition to producing income, life insurance must cover certain lump-sum need
 + Readjustment Fund
 = Total Immediate Needs
  
->Quick note on clients who are single with no dependents 
+>Quick note on clients who are single with no dependents:
 We recognize the need to pay final expenses and unforgivable debt, but we assume the deceased (or, his or her estate) would liquidate all assets – including retirement and education savings - before dipping into life insurance. That means we recommend a death benefit equal to the amount by which the sum of unforgivable debt and final expenses exceeds the sum of the client’s assets.
 You’ll notice this is a different approach than the one we take for clients who have a partner, dependents, or both. For those clients, we recommend an amount of life insurance that would remove the need to dip into retirement or education savings to fund immediate needs. That’s because we assume the partner and dependents are counting on those savings to – you know – fund retirement and education goals.
 For a client with no dependents, we assume those education and retirement savings dollars had been earmarked for goals that became irrelevant with the client’s death. Granted, that’s simplistic: a single client might money in a 529 for whom his niece is the beneficiary. We’ll look to users for help gleaning the urgency of a more granular approach to this issue.
