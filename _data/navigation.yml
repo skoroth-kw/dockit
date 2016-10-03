@@ -33,7 +33,11 @@ navdocs:
 - title: Goal Funder and Scoring
   url: /goal-funder-and-scoring/goal-funder-and-scoring/
   icon: milestone
-
+  
+# Emergency Savings
+- title: Emergency Savings
+  url: /emergency-savings/
+  icon: bookmark
 
 # DATA
 - title: Data
