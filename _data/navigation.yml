@@ -61,8 +61,8 @@ navdocs:
   icon: chevron-right
   url: /credit-cards/
   subnav:
-  - title: Immediate Needs
-    url: /survivor_income/immediate_needs/
+  - title: Minimum Payments
+    url: /credit-cards/minimum-payments/
 
 navfooter:
 - title: Back to top
