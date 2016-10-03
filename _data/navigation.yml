@@ -11,12 +11,12 @@ navdocs:
 # INTRODUCTION
 - title: Introduction
   url: /introduction/
-  icon: unfold
+  icon: chevron-right
   
 # SAVING GOALS
 - title: Saving Goals
   url: /saving-goals/
-  icon: ruby
+  icon: chevron-right
   subnav:
   - title: Growing Your Family
     url: /saving-goals/growing-your-family/
@@ -32,19 +32,21 @@ navdocs:
 # GOAL Funder Scroing
 - title: Goal Funder and Scoring
   url: /goal-funder-and-scoring/goal-funder-and-scoring/
-  icon: milestone
+  icon: chevron-right
   
 # Emergency Savings
 - title: Emergency Savings
   url: /emergency-savings/
-  icon: bookmark
+  icon: chevron-right
   
 # Survivor Need
 - title: Survivor Need
-  icon: tag
+  icon: chevron-right
   subnav:
   - title: Post Retirement
     url: /survivor-need/post-retirement/
+  - title: Pre Retirement
+    url: /survivor-need/pre-retirement/
     
   
 
