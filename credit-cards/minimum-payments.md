@@ -12,7 +12,8 @@ The take-away is that, in Blazewater, we project that minimum payments will decr
 - The average amount of money a client sends toward goals in a given year is different, if she has debt, than the amount she’ll contribute toward goals in the first month of the plan.
 
 If you completely understand the reasoning behind both of those bullet points (and good for you, because it’s not terribly intuitive), feel free to stop reading. Otherwise, here is a bit more about why our method plays out the way it does.
--First, projected interest savings:
+
+- ### First, projected interest savings:
 Lightning assumes a credit card’s minimum payment remains constant throughout the life of the card. Projecting the numbers out that way actually results in the client paying the card off more quickly (and therefore paying less in interest) than she really would if she paid only the true minimums, which would decrease with the balance over the course of the loan.
 Projecting card’s amortization such that the minimum payments decrease with the balance - which happens in Blazewater and in real life - results in a longer payment term and more interest paid. Well, it results in an accurate payment term and total interest paid, whereas LG was actually understating the interest a client would pay if she only ever made minimum payments.
 Keep in mind: this issue centers on how much the client would pay in interest by making only minimum payments – that’s almost never what we’d recommend they do. 
