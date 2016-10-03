@@ -47,8 +47,14 @@ navdocs:
     url: /survivor-need/post-retirement/
   - title: Pre Retirement
     url: /survivor-need/pre-retirement/
-    
 
+# Survivor Income
+- title: Survivor Income
+  icon: chevron-right
+  url: /survivor_income/
+  subnav:
+  - title: Immediate Needs
+    url: /survivor_income/immediate_needs/
 
 navfooter:
 - title: Back to top
