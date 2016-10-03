@@ -51,7 +51,7 @@ navdocs:
 # Survivor Income
 - title: Survivor Income
   icon: chevron-right
-  url: /survivor_income/index/
+  url: /survivor_income/index
   subnav:
   - title: Immediate Needs
     url: /survivor_income/immediate_needs/
