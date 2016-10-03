@@ -6,7 +6,6 @@ published: true
 ### Some Notes on Minimum Payments
 
 `How they Change Over the Course of Credit Card Pay-Down`
- 
 We’ve been getting a fair amount of tickets (as of January 2016) that relate to BW’s method for calculating minimum payments on credit cards, so we felt it was worth talking a bit about that process here:
 The take-away is that, in Blazewater, we project that minimum payments will decrease along with the card’s balance over the course of the loan. That probably sounds pretty straightforward, but it has two implications that one might not expect:
 - When we project the amount of interest a client “savings” by following our advice rather than paying the minimums, the gap seems higher than it was in Lightning.
@@ -29,4 +28,3 @@ We walk that line by assuming a client’s credit card interest rate is the maxi
 We’ll never assume the minimum payment is lower than $25 per month.
 Speaking of assumptions, you might wonder what we do if a client is unsure of both his minimum payment and his interest rate? We assume an interest rate of 30%.
 Yes, that’s higher than most people would actually pay. But given how hard it is to know someone’s interest rate – even if they have good credit now, they might have gotten a given card at a time when their credit score was low – we want to err on the safe side. Our assumption models themselves flirt with recommending too low a payment, but the 30% assumed interest rate will bring the assumption into a range we're confident will never allow for a too-low payment recommendation.
- 
