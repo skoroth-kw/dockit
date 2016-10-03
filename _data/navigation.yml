@@ -51,10 +51,10 @@ navdocs:
 # Survivor Income
 - title: Survivor Income
   icon: chevron-right
-  url: /survivor-income/
+  url: /survivor_income/
   subnav:
   - title: Immediate Needs
-    url: /survivor-income/immediate-needs/
+    url: /survivor_income/immediate_needs/
     
  # Credit Cards
 - title: Credit Cards
