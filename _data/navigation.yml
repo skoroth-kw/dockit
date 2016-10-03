@@ -22,7 +22,13 @@ navdocs:
     url: /saving-goals/growing-your-family/
   - title: Education Savings
     url: /saving-goals/education-savings/
-
+  - title: Custom Savings
+    url: /saving-goals/custom-savings/
+  - title: Down Payment
+    url: /saving-goals/down-payment/
+  - title: Emergency Funding
+    url: /saving-goals/emergency-funding-beyond-basic-security/
+    
 # DATA
 - title: Data
   url: /data/
