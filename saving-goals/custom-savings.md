@@ -3,9 +3,7 @@ layout: doc
 title: Custom Savings
 published: true
 ---
-##
-
-Custom Savings
+## Custom Savings
 
 The portion of the onboarding process that asks about custom goals seeks – as other sections do – to know how flexible the client is with regard to the goal’s size and timing.
 
