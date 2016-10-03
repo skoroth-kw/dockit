@@ -17,7 +17,7 @@ After Tax Income minus debt payments minus retirement status quo
 - Survivor’s after-tax income
 - Any joint, after-tax income
 
-### Total Shortfall, Year One
+## Total Shortfall, Year One
  
 Basically, we’re saying the insurance proceeds would need to produce enough money to fund all expenses and goals dollars…minus debt payments, because remember, debts will be paid down immediately, and minus any income the survivor would continue taking home. Also minus any joint income, which we assume will continue after the insured dies. Oh, also minus status quo retirement contributions, but we'll talk about in a moment.
 Now that you have the broad outline, there are a couple nuances to be aware of:
