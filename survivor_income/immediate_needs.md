@@ -1,3 +1,8 @@
+---
+layout: doc
+title: Immediate Needs
+published: true
+---
 ## Immediate Needs Calculator:
 
 In addition to producing income, life insurance must cover certain lump-sum needs that will arise soon after the insured dies. An obvious example is the cost of the funeral (which we refer to as “final expenses”), but we also want the survivor to have enough to, for example, pay down debt and fund their kids’ college expenses. Here’s a list of the “immediate” needs that factor into our insurance calculations:
