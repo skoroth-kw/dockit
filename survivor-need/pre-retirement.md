@@ -1,3 +1,8 @@
+---
+layout: doc
+title: Pre Retirement
+published: true
+---
 ## Pre-Retirement
 
 We’re going to show the equation that leads to the pre-retirement survivor need figure, then we’ll talk a bit about the component parts and why they fit together the way they do. Here’s the equation:
