@@ -4,14 +4,10 @@ title: Survivor Income
 published: true
 ---
 
-Blazewater’s Survivor Income section exists to determine how much life insurance we should recommend a client buy.
-We refer to this question as “survivor income” because helping the survivor produce income to “replace” that which the deceased might have earned is the key objective of life insurance, at least in the world of LearnVest.
-It will be helpful to know as you read this section that we split the need for survivor income into three broad categories:
-Immediate needs: Money a survivor would need right away to cover things like an emergency fund, debts, etc.
- 
-Pre-retirement: Income the survivor would need to fund current expenses;
- 
-Post-retirement: Money to augment the income a couple’s retirement assets could generate in funding retirement-stage expenses.
+Blazewater’s Survivor Income section exists to determine how much life insurance we should recommend a client buy. We refer to this question as “survivor income” because helping the survivor produce income to “replace” that which the deceased might have earned is the key objective of life insurance, at least in the world of LearnVest. It will be helpful to know as you read this section that we split the need for survivor income into three broad categories:
+* `Immediate needs`: Money a survivor would need right away to cover things like an emergency fund, debts, etc.
+* `Pre-retirement`: Income the survivor would need to fund current expenses;
+* `Post-retirement`: Money to augment the income a couple’s retirement assets could generate in funding retirement-stage expenses.
  
 Each category of need flows from the same “bucket” of insurance proceeds, but conceptually splitting them up makes for a more accurate calculation of how big that bucket needs to be and – we hope – makes life insurance easier for clients to understand.
 Before we get to the math, here are a couple of quick notes on survivor income and need:
