@@ -1,10 +1,10 @@
 ---
 layout: doc
-title: Emergency Funding Beyond Basic Security
+title: Emergency Funding
 published: true
 ---
 
-## Emergency Savings
+## Emergency Savings Beyond Basic Security
 
 * `How Much we Recommend`:
  
@@ -48,4 +48,3 @@ For clients with large amounts of credit card debt, the 20% floor may actually d
 Well, keep in mind, sending more money toward the emergency fund early in the plan would, in a case like this, mean sending less money toward credit cards. That means credit cards take longer to pay down, and that means the client will ultimately pay more in interest. Over the course of years, more money going toward interest means less going to the emergency fund.
 The 20% floor almost always results in a steadier flow of money to the emergency fund – that is, a Planner is less likely to notice periods of months or years when emergency savings receives a negligible amount or nothing at all. One might argue the behavioral advantages of steady funding are valuable enough to justify a longer path toward a full emergency fund. One could also argue against it, but it would be easier to just pick the goal package that builds the emergency fund the quickest. 
 The two goal packages could show identical numbers: this will happen if the original goal package would already have sent 20% or more toward the emergency fund until it's funded.
-
