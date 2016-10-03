@@ -21,8 +21,8 @@ While this scenario isn’t terribly common, it’s easy to see how it could com
 To ensure a larger percentage of clients achieve the baseline emergency savings amount LearnVest recommends, we implemented the following solution: we’ll postpone for one year the “retirement ramp” for clients whose savings dollars are too scarce to meet our retirement recommendations and build a month’s worth of emergency savings within the first 12 months of their Plans.
 A client triggers this adjustment if:
 - She lacks a month’s worth of emergency savings at the date her Plan begins, and 
-- Removing from her savings dollars the amount she’d need to save 1% of gross income toward retirement, or meet
-her employer match, or both, would leave her with too few dollars to save a month’s worth of net income into her emergency fund within the first 12 months of her Plan.
+- Removing from her savings dollars the amount she’d need to save 1% of gross income toward retirement, or meet her employer match, or both, would leave her with too few dollars to save a month’s worth of net income into her emergency fund within the first 12 months of her Plan.
+
 The feature in question removes for a year the recommendation for a client to increase retirement savings.
 It’s best to interpret that sentence narrowly: this adjustment never leads Blazewater to recommend a reduction of retirement savings; and the postponement of anincrease includes recommending a client who saves nothing toward retirement at the beginning of his Plan continue saving nothing for a full year.
 > And it’s worth noting that the retirement savings delay always lasts 12 months: the absence of the retirement ramp might actually allow a client to amass more than a month’s worth of emergency savings during that time, or the client’s savings dollars might be so scarce that she’s left with less than a month of savings by that time. It’s hard to imagine the latter situation coming to pass – Blazewater would likely “safety-valve” a client so strapped of resources – but we’re mentioning it just to note the rigidity of this feature. 
