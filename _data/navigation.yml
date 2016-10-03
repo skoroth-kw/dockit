@@ -28,7 +28,12 @@ navdocs:
     url: /saving-goals/down-payment/
   - title: Emergency Funding
     url: /saving-goals/emergency-funding-beyond-basic-security/
-    
+
+# GOAL Funder Scroing
+- title: Goal Funder and Scoring
+  url: /goal-funder-and-scoring/goal-funder-and-scoring/
+
+
 # DATA
 - title: Data
   url: /data/
