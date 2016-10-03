@@ -12,7 +12,7 @@ After Tax Income minus debt payments minus retirement status quo
 + Fixed Expenses
 + Flex Expenses
 + Non-Retirement Goal Savings (Except Retirement)
-### Total Need, Year One
+## Total Need, Year One
 
 - Survivor’s after-tax income
 - Any joint, after-tax income
