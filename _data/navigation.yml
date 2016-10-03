@@ -41,7 +41,7 @@ navdocs:
   
 # Survivor Need
 - title: Survivor Need
-  icon: bookmark
+  icon: tag
   subnav:
   - title: Post Retirement
     url: /survivor-need/post-retirement/
