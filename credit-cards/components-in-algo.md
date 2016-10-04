@@ -14,7 +14,7 @@ The maximum payment calculator first determines the total amount of funding avai
 
 A LearnVest standard for paying off credit cards is to ensure they are paid off within 5 years; this translates to a 60 month term for credit cards. In order to calculate payoff and rates, BW uses a 360 day year and a 30 day month.  A standard payment calculation is used for credit cards with the exception of introduction rate cards. To calculate payments for an introduction rate card:
 
-{% highlight sass %}
+{% highlight text %}
 
 rateFactor = rate + ( rate / (rate^(number of periods that are not intro) - 1)))
 payment = (card balance * rateFactor) / (1 + (introMonths * rateFactor))
