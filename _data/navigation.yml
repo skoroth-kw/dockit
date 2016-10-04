@@ -68,6 +68,14 @@ navdocs:
   - title: Components in algo
     url: /credit-cards/components-in-algo/
     
+ # Retirement    
+- title: Retirement
+  icon: chevron-right
+  url: /retirement/
+  subnav:
+  - title: Minimum Payments
+    url: /credit-cards/minimum-payments/
+
 navfooter:
 - title: Back to top
   url: '#top"  data-scroll="true'
