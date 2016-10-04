@@ -50,6 +50,7 @@ Ending balance of account = Original balance + return – taxes - needs
 Blazewater sets a client on the path withdrawing retirement assets (during retirement, of course), in the following order:
 
 |Asset Type |
+|-----------|
 | Cash + Cash Equivalents |
 | Brokerage|  
 | Non-Roth Qualified Accounts| 
