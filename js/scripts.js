@@ -86,9 +86,15 @@ if(document.getElementById("search-field")){
 	// Disable enter key submission on search form
 	document.getElementById('search-field').addEventListener('keypress', function(event) {
 		if (event.keyCode == 13) {
-			alert('Elastic search');
+			 //alert('Elastic search');
 			 var el =  document.getElementById('main-document-content');
 			 el.parentNode.removeChild(el);
+			 var iframe = document.createElement('iframe');
+			 var html = '<body>Foo</body>';
+			 document.body.appendChild(iframe);
+             iframe.contentWindow.document.open();
+             iframe.contentWindow.document.write(html);
+             iframe.contentWindow.document.close(); 
 			 event.preventDefault();
 		}
 	});
