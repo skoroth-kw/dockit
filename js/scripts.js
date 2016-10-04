@@ -91,7 +91,7 @@ if(document.getElementById("search-field")){
 			 el.innerHTML = '';
 			 //el.parentNode.removeChild(el);
 			 var iframe = document.createElement('iframe');
-			 var searchUrl = 'http://localhost:1337/elasticsearch/search?search='+document.getElementById('search-field').value;
+			 //var searchUrl = 'http://localhost:1337/elasticsearch/search?search='+document.getElementById('search-field').value;
 			 el.appendChild(iframe);
 			 iframe.src = searchUrl;
              iframe.contentWindow.document.open();
