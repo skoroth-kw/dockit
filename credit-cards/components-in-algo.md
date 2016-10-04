@@ -22,4 +22,10 @@ payment = (card balance * rateFactor) / (1 + (introMonths * rateFactor))
 {% endhighlight %}
 
  
-If the card will not be paid off in 5 years based on the total payments, BW runs a calculation to see what the payment would be needed to achieve credit card payoff in 5 years. This is done by calculating the effective annual interest rate and forcing the timeframe to 60 months. The formula for the effective annual interest rate is: ((1+APR/360)*(30))-1
+If the card will not be paid off in 5 years based on the total payments, BW runs a calculation to see what the payment would be needed to achieve credit card payoff in 5 years. This is done by calculating the effective annual interest rate and forcing the timeframe to 60 months. The formula for the effective annual interest rate is: 
+
+{% highlight text %}
+
+((1+APR/360)*(30))-1
+
+{% endhighlight %}
