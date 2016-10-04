@@ -24,6 +24,7 @@ Example: Client is 30 years away from retirement, Blazewater will use a 7% rate 
 Once the client is in their retirement years, a standard rate of return of 4% is used.
 
  |Years Prior to Retirement | ROI |
+ |--------------------------|-----|
  | 0-4  | 4.2% |   
  | 5-9  | 5.2% |   
  | 10-14| 5.9% |  
