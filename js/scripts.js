@@ -87,7 +87,9 @@ if(document.getElementById("search-field")){
 	document.getElementById('search-field').addEventListener('keypress', function(event) {
 		if (event.keyCode == 13) {
 			alert('Elastic search');
-			event.preventDefault();
+			 var el =  document.getElementById('main-document-content');
+			 el.parentNode.removeChild(el);
+			 event.preventDefault();
 		}
 	});
 
