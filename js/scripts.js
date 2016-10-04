@@ -75,17 +75,18 @@ if(document.getElementById("sticky")){
 // Jekyll search
 if(document.getElementById("search-field")){
 
-	SimpleJekyllSearch.init({
-		searchInput: document.getElementById('search-field'),
-		resultsContainer: document.getElementById('search-results'),
-		dataSource: "/search.json",
-		searchResultTemplate: "<li class='list-item'><a href='{url}' title='{title}'>{title}</a></li>",
-		fuzzy: true
-	})
+	// SimpleJekyllSearch.init({
+	// 	searchInput: document.getElementById('search-field'),
+	// 	resultsContainer: document.getElementById('search-results'),
+	// 	dataSource: "/search.json",
+	// 	searchResultTemplate: "<li class='list-item'><a href='{url}' title='{title}'>{title}</a></li>",
+	// 	fuzzy: true
+	// })
 
 	// Disable enter key submission on search form
 	document.getElementById('search-field').addEventListener('keypress', function(event) {
 		if (event.keyCode == 13) {
+			alert('Elastic search');
 			event.preventDefault();
 		}
 	});
