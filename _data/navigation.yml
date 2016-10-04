@@ -63,6 +63,9 @@ navdocs:
   subnav:
   - title: Minimum Payments
     url: /credit-cards/minimum-payments/
+  - title: Funder formula results
+    url: /credit-cards/funder-formula-results/
+    
 
 navfooter:
 - title: Back to top
