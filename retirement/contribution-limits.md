@@ -4,7 +4,7 @@ title: Contribution Limits
 published: true
 ---
 
-### Limits
+## Limits
  
 For each retirement account, there are contribution limits associated with them. Blazewater accounts for each of these to ensure that more money is not being contributed to a certain account than allowed. 
 The following limits are tracked and projected:
