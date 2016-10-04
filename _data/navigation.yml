@@ -65,8 +65,9 @@ navdocs:
     url: /credit-cards/minimum-payments/
   - title: Funder formula results
     url: /credit-cards/funder-formula-results/
+  - title: Components in algo
+    url: /credit-cards/components-in-algo/
     
-
 navfooter:
 - title: Back to top
   url: '#top"  data-scroll="true'
