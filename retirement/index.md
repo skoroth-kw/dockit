@@ -23,12 +23,6 @@ The Rates of return Blazewater assigns to investment growth is based on the char
 Example: Client is 30 years away from retirement, Blazewater will use a 7% rate of return until retirement. 
 Once the client is in their retirement years, a standard rate of return of 4% is used.
 
-| Primary Font                                                                                        | Font Stack String                                                                    | Weights     |
-|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------|
-| [Abel                  ](https://www.google.com/fonts/specimen/Abel                               ) | `\"Abel\", \"Lucida Console\", monospace                                           ` | 400,700     |
-
----
-
  |Years Prior to Retirement | ROI |
  | 0-4  | 4.2% |   
  | 5-9  | 5.2% |   
@@ -59,6 +53,7 @@ Blazewater sets a client on the path withdrawing retirement assets (during retir
 | Brokerage|  
 | Non-Roth Qualified Accounts| 
 | Roth Qualified Accounts|
+
 ---
 
 
