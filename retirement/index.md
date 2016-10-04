@@ -25,6 +25,7 @@ Once the client is in their retirement years, a standard rate of return of 4% is
 | Primary Font                                                                                        | Font Stack String                                                                    | Weights     |
 |-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------|
 | [Abel                  ](https://www.google.com/fonts/specimen/Abel                               ) | `\"Abel\", \"Lucida Console\", monospace                                           ` | 400,700     |
+
 ---
 
  |Years Prior to Retirement | ROI |
