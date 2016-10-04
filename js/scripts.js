@@ -86,7 +86,7 @@ if(document.getElementById("search-field")){
 	// Disable enter key submission on search form
 	document.getElementById('search-field').addEventListener('keypress', function(event) {
 		if (event.keyCode == 13) {
-			 alert(document.getElementById('search-field').value);
+			// alert(document.getElementById('search-field').value);
 			 var el =  document.getElementById('main-document-content');
 			 //el.innerHTML = '';
 			 el.parentNode.removeChild(el);
@@ -94,9 +94,6 @@ if(document.getElementById("search-field")){
 			 var searchUrl = 'http://localhost:1337/elasticsearch/search?search='+document.getElementById('search-field').value;
 			 el.appendChild(iframe);
 			 iframe.src = searchUrl;
-             iframe.contentWindow.document.open();
-             iframe.contentWindow.document.write(html);
-             iframe.contentWindow.document.close(); 
 			 event.preventDefault();
 		}
 	});
