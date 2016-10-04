@@ -22,6 +22,10 @@ Any accounts are divided into categories: cash based, brokerage, qualified non-R
 The Rates of return Blazewater assigns to investment growth is based on the chart below: Depending on where the client falls within this scale and time until retirement, Blazewater will assume that rate of return up until retirement age. 
 Example: Client is 30 years away from retirement, Blazewater will use a 7% rate of return until retirement. 
 Once the client is in their retirement years, a standard rate of return of 4% is used.
+| Primary Font                                                                                        | Font Stack String                                                                    | Weights     |
+|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------|
+| [Abel                  ](https://www.google.com/fonts/specimen/Abel                               ) | `\"Abel\", \"Lucida Console\", monospace                                           ` | 400,700     |
+---
 
  |Years Prior to Retirement | ROI |
  | 0-4  | 4.2% |   
