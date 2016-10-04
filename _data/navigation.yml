@@ -73,8 +73,8 @@ navdocs:
   icon: chevron-right
   url: /retirement/
   subnav:
-  - title: Minimum Payments
-    url: /credit-cards/minimum-payments/
+  - title: Contribution Limits
+    url: /retirement/contribution-limits/
 
 navfooter:
 - title: Back to top
