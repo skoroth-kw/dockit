@@ -35,6 +35,7 @@ Once the client is in their retirement years, a standard rate of return of 4% is
  | 10-14| 5.9% |  
  | 15-22| 6.8% |   
  | >23  | 7% |
+ 
  ---
 
 
