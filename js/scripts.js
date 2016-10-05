@@ -88,7 +88,7 @@ if(document.getElementById("search-field")){
 		if (event.keyCode == 13) {
 			 alert(document.getElementById('search-field').value);
 			 var el =  document.getElementById('main-document-content');
-			 var searchUrl = 'http://localhost/elasticsearch/search?search='+document.getElementById('search-field').value+'&targetUrl=localhost:1337';
+			 var searchUrl = 'http://localhost:9000/elasticsearch/search?search='+document.getElementById('search-field').value+'&targetUrl=localhost';
 			 var el =  document.getElementById('main-document-content');
 			   $.ajax({url:searchUrl , success: function(result){
         				el.html(result);
