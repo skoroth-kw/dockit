@@ -99,7 +99,7 @@ if(document.getElementById("search-field")){
 			      content+="<div style='font-size:22px;color:blue!important;padding-bottom:5px;text-align:center;padding-top:50px;'> No results found</div>";
 			      content+=" </ul> </div>";
 			     }
-		        $.each(result.pages,function(page){
+		        $.each(result.pages,function(index,page){
 		        	alert(page);
 					content+="<div style='font-size:22px;color:blue!important;padding-top:5px;padding-bottom:5px;'><a href='"+page.url+"'>["+page.name+"/"+page.version+"]</a></div>";
 					content+="<div style='font-size:12px;color:blue!important;padding-bottom:5px;'>[Confidence: "+page.score+"] [Created: "+page.date+"]</div>";
