@@ -90,7 +90,8 @@ if(document.getElementById("search-field")){
 			 var el =  document.getElementById('main-document-content');
 			 var searchUrl = 'http://localhost:9000/elasticsearch/search?search='+document.getElementById('search-field').value+'&targetUrl=localhost';
 			 var el =  document.getElementById('main-document-content');
-			   $.ajax({url:searchUrl , success: function(result){
+			   $.ajax({url:searchUrl , success: function(data){
+			   result = JSON.parse(data);
                var content = "<div><ul>";
 			    if (result.length >0){
 			      content+="<div style='font-size:22px;color:blue!important;padding-bottom:5px;text-align:center;padding-top:50px;'> No results found</div>";
