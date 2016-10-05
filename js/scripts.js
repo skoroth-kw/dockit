@@ -88,14 +88,27 @@ if(document.getElementById("search-field")){
 		if (event.keyCode == 13) {
 			// alert(document.getElementById('search-field').value);
 			 var el =  document.getElementById('main-document-content');
-			 //el.parentNode.removeChild(el);
-			 var iframe = document.createElement('iframe');
-			 iframe.width =el.width;
-			 iframe.height =el.height;
-			 var searchUrl = 'http://localhost:1337/elasticsearch/search?search='+document.getElementById('search-field').value;
-			 iframe.src = searchUrl;
-			 el.innerHTML = '';
-			 el.appendChild(iframe);
+			 
+
+			 $.ajax(
+			    {
+			        url :  var searchUrl = 'http://localhost:1337/elasticsearch/search?search='+document.getElementById('search-field').value;,
+			        type: "GET",
+			        data : '',
+			        success:function(data, textStatus, jqXHR) 
+			        {
+			            
+			            alert(data);
+			        },
+			        error: function(jqXHR, textStatus, errorThrown) 
+			        {
+			            
+			        }
+			   	 });
+
+
+			
+		
 			
 			 event.preventDefault();
 		}
