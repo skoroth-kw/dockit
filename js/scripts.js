@@ -91,7 +91,7 @@ if(document.getElementById("search-field")){
 			 var searchUrl = 'http://localhost:9000/elasticsearch/search?search='+document.getElementById('search-field').value+'&targetUrl=localhost';
 			 var el =  document.getElementById('main-document-content');
 			   $.ajax({url:searchUrl , success: function(result){
-        				el.html(result);
+        				el.innerHTML = (result);
     			},
 				error: function(jqXHR, textStatus, errorThrown) 
 			    {
