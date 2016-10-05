@@ -97,7 +97,7 @@ if(document.getElementById("search-field")){
 			      content+=" </ul> </div>";
 			     }
 		        result.forEach(page, function(){
-				content+="<div style='font-size:22px;color:blue!important;padding-top:5px;padding-bottom:5px;'><a href='"+page.url+"'>["+page.name"+/"+page.version+"]</a></div>";
+				content+="<div style='font-size:22px;color:blue!important;padding-top:5px;padding-bottom:5px;'><a href='"+page.url+"'>["+page.name+"/"+page.version+"]</a></div>";
 				content+="<div style='font-size:12px;color:blue!important;padding-bottom:5px;'>[Confidence: "+page.score+"] [Created: "+page.date+"]</div>";
 				content+="<div style='font-size:18px;color:blue!important;padding-bottom:5px;'> <a href='"+page.url+"'>"+page.url+"</a></div>";
                 content+="<div style='font-size:14px;color:gray;padding-bottom:20px;font-style:italics;'>"+page.highlighted+"</div>";
