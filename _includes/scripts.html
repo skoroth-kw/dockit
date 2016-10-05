@@ -26,9 +26,10 @@
         {
          	location.href = $(this).attr('href');
         }
-        if(!href.endsWith("/")){
+        if(href.endsWith("/") == false){
         	href = href+"/";
         }
+        alert(href);
 		else if(href.indexOf('?')>-1){
 			location.href = href+"&targetUrl="+s3bucket;
 		}else{
