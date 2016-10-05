@@ -86,7 +86,6 @@ if(document.getElementById("search-field")){
 	// Disable enter key submission on search form
 	document.getElementById('search-field').addEventListener('keypress', function(event) {
 		if (event.keyCode == 13) {
-			 alert(document.getElementById('search-field').value);
 			 var el =  document.getElementById('main-document-content');
 			 var searchUrl = 'http://localhost:9000/elasticsearch/search?search='+document.getElementById('search-field').value+'&targetUrl=localhost';
 			 var el =  document.getElementById('main-document-content');
