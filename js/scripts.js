@@ -102,7 +102,7 @@ if(document.getElementById("search-field")){
 				content+="<div style='font-size:18px;color:blue!important;padding-bottom:5px;'> <a href='"+page.url+"'>"+page.url+"</a></div>";
                 content+="<div style='font-size:14px;color:gray;padding-bottom:20px;font-style:italics;'>"+page.highlighted+"</div>";
                 content+=" </ul> </div>";
-            	}
+            	});
             	el.innerHTML = (content);
 
     			},
