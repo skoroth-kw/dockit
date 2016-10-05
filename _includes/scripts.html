@@ -26,10 +26,13 @@
         {
          	location.href = $(this).attr('href');
         }
+        if(!href.endsWith("/")){
+        	href = href+"/";
+        }
 		else if(href.indexOf('?')>-1){
-			location.href = $(this).attr('href')+"&targetUrl="+s3bucket;
+			location.href = href+"&targetUrl="+s3bucket;
 		}else{
-			location.href = $(this).attr('href')+"?targetUrl="+s3bucket;
+			location.href = href+"?targetUrl="+s3bucket;
 		}
     	e.preventDefault();
 	    });
