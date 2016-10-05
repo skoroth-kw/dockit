@@ -91,13 +91,16 @@ if(document.getElementById("search-field")){
 			 var searchUrl = 'http://localhost:9000/elasticsearch/search?search='+document.getElementById('search-field').value+'&targetUrl=localhost';
 			 var el =  document.getElementById('main-document-content');
 			   $.ajax({url:searchUrl , success: function(data){
+			   	alert(data);
 			   result = JSON.parse(data);
+			   alrt(result);
                var content = "<div><ul>";
 			    if (result.length >0){
 			      content+="<div style='font-size:22px;color:blue!important;padding-bottom:5px;text-align:center;padding-top:50px;'> No results found</div>";
 			      content+=" </ul> </div>";
 			     }
 		        $.each(result,function(page){
+		        	alrt(page);
 					content+="<div style='font-size:22px;color:blue!important;padding-top:5px;padding-bottom:5px;'><a href='"+page.url+"'>["+page.name+"/"+page.version+"]</a></div>";
 					content+="<div style='font-size:12px;color:blue!important;padding-bottom:5px;'>[Confidence: "+page.score+"] [Created: "+page.date+"]</div>";
 					content+="<div style='font-size:18px;color:blue!important;padding-bottom:5px;'> <a href='"+page.url+"'>"+page.url+"</a></div>";
