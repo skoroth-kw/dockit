@@ -22,15 +22,14 @@
 	    $('a').on('click', function(e){
 		var href = $(this).attr('href');
 		var ignore = $(this).attr('ignore-pre-click');
+		if(href.endsWith("/") == false){
+        	href = href+"/";
+        }
 		if(ignore == "true")
         {
          	location.href = $(this).attr('href');
         }
-        if(href.endsWith("/") == false){
-        	href = href+"/";
-        }
-        alert(href);
-		else if(href.indexOf('?')>-1){
+   		else if(href.indexOf('?')>-1){
 			location.href = href+"&targetUrl="+s3bucket;
 		}else{
 			location.href = href+"?targetUrl="+s3bucket;
