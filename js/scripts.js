@@ -96,17 +96,17 @@ if(document.getElementById("search-field")){
                var content = "";
 			    if (result.pages.length < 1){
 			      content+="<div><ul>";
-			      content+="<div style='font-size:1.0em;color:#4183c4!important;padding-bottom:5px;text-align:center;padding-top:50px;'> No results found</div>";
+			      content+="<div style='font-size:1.20em;color:#4183c4!important;padding-bottom:5px;text-align:center;padding-top:50px;'> No results found</div>";
 			      content+=" </ul> </div>";
 			     }
 		        $.each(result.pages,function(index,page){
 		        	//alert(page);
-		        	content+="<div><ul>";
-					content+="<div style='font-size:.9em;color:#4183c4!important;padding-top:5px;padding-bottom:5px;'><a href='"+page.url+"' target='_blank'>["+page.name+"/"+page.version+"]</a></div>";
-					content+="<div style='font-size:.6em;color:#4183c4!important;padding-bottom:5px;'>[Confidence: "+page.score+"] [Created: "+page.date+"]</div>";
-					content+="<div style='font-size:.9em;color:#4183c4!important;padding-bottom:5px;'> <a href='"+page.url+"' target='_blank'>"+page.url+"</a></div>";
-	                content+="<div style='font-size:.9em;color:gray;padding-bottom:20px;font-style:italics;'>"+page.highlighted+"</div>";
-	                content+="</ul> </div>";
+		        	content+="<ul>";
+					content+="<div style='font-size:1.0em;color:#4183c4!important;padding-top:5px;padding-bottom:5px;'><a href='"+page.url+"' target='_blank'>["+page.name+"/"+page.version+"]</a></div>";
+					content+="<div style='font-size:.8em;color:#4183c4!important;padding-bottom:5px;'>[Confidence: "+page.score+"] [Created: "+page.date+"]</div>";
+					content+="<div style='font-size:1.0em;color:#4183c4!important;padding-bottom:5px;'> <a href='"+page.url+"' target='_blank'>"+page.url+"</a></div>";
+	                content+="<div style='font-size:1.0em;color:gray;padding-bottom:20px;font-style:italics;'>"+page.highlighted+"</div>";
+	                content+="</ul>";
             	});
             	el.innerHTML = (content);
 
