@@ -6,7 +6,8 @@ published: true
 
 ## Timelines
 
-There are two important things to keep in mind about how Blazewater decides how much cash should go toward each goal (the “goal funder”). The first is that results are shown on a monthly basis, rather than weekly or yearly. Second, no goals receive any funding until after retirement and baseline basic security are funded. Thus, this Goal Funding section does not describe the funding for retirement, the first month’s worth of emergency savings, or paying off credit cards within five years, which are each taken out of the available pool of money before moving on to any other goal. 
+There are two important things to keep in mind about how Blazewater decides how much cash should go toward each goal (the “goal funder”). The first is that results are shown on a monthly basis, rather than weekly or yearly. Second, no goals receive any funding until after retirement and baseline basic security are funded. Thus, this Goal Funding section does not describe the funding for retirement, the first month’s worth of emergency savings, or paying off credit cards within five years, which are each taken out of the available pool of money before moving on to any other goal.
+
 ## The "Composite Score"
  
 The goal funder will then calculate how much to send to each remaining goal for each month until the client’s retirement age. It starts the process by looking at the ranking of each goal, which is information that is entered by the client via the Program Setup (aka “client profile”) and then refined by the planner. The rank is translated into a Rank Score by a calculation that allows the highest priority goal to receive the highest score in a format that is useable for further calculations. The Rank Score is just one of four parts of the overall Composite Score, which ultimately determines the amount of funding for a goal.
