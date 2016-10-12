@@ -101,10 +101,10 @@ if(document.getElementById("search-field")){
 		        $.each(result.pages,function(index,page){
 		        	//alert(page);
 		        	content+="<ul>";
-					content+="<div style='font-size:1.0em;color:#4183c4!important;padding-top:5px;padding-bottom:5px;'><a href='"+page.url+"' target='_blank'>["+page.name+"/"+page.version+"]</a></div>";
+					content+="<div style='font-size:1.0em;color:#4183c4!important;padding-top:0px;padding-bottom:5px;'><a href='"+page.url+"' target='_blank'>["+page.name+"/"+page.version+"]</a></div>";
 					content+="<div style='font-size:.8em;color:#4183c4!important;padding-bottom:5px;'>[Confidence: "+page.score+"] [Created: "+page.date+"]</div>";
 					content+="<div style='font-size:1.0em;color:#4183c4!important;padding-bottom:5px;'> <a href='"+page.url+"' target='_blank'>"+page.url+"</a></div>";
-	                content+="<div style='font-size:1.0em;color:gray;padding-bottom:20px;font-style:italics;'>"+page.highlighted+"</div>";
+	                content+="<div style='font-size:1.0em;color:gray;padding-bottom:0px;font-style:italics;'>"+page.highlighted+"</div>";
 	                content+="</ul>";
             	});
             	el.innerHTML = (content);
