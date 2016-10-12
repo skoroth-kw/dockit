@@ -29,8 +29,8 @@ permalink: pretty
 
 # Gems
 gems:
-- jemoji
-- jekyll-sitemap
+#- jemoji
+#- jekyll-sitemap
 
 # Sass options
 sass:
