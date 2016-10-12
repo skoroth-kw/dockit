@@ -86,7 +86,37 @@ if(document.getElementById("search-field")){
 	// Disable enter key submission on search form
 	document.getElementById('search-field').addEventListener('keypress', function(event) {
 		if (event.keyCode == 13) {
-			event.preventDefault();
+			 var el =  document.getElementById('main-document-content');
+			 var searchUrl = 'http://localhost:9000/elasticsearch/search?search='+document.getElementById('search-field').value+'&targetUrl=localhost';
+			 var el =  document.getElementById('main-document-content');
+			   $.ajax({url:searchUrl , success: function(data){
+			   result = JSON.parse(data);
+			   //alert(result.pages);
+               var content = "";
+			    if (result.pages.length < 1){
+			      content+="<div><ul>";
+			      content+="<div style='font-size:1.20em;color:#4183c4!important;padding-bottom:5px;text-align:center;padding-top:50px;'> No results found</div>";
+			      content+=" </ul> </div>";
+			     }
+		        $.each(result.pages,function(index,page){
+		        	//alert(page);
+		        	content+="<ul>";
+					content+="<div style='font-size:1.0em;color:#4183c4!important;padding-top:0px;padding-bottom:5px;'><a href='"+page.url+"' target='_blank'>["+page.name+"/"+page.version+"]</a></div>";
+					content+="<div style='font-size:.8em;color:#4183c4!important;padding-bottom:5px;'>[Confidence: "+page.score+"] [Created: "+page.date+"]</div>";
+					content+="<div style='font-size:1.0em;color:#4183c4!important;padding-bottom:5px;'> <a href='"+page.url+"' target='_blank'>"+page.url+"</a></div>";
+	                content+="<div style='font-size:1.0em;color:gray;padding-bottom:0px;font-style:italics;'>"+page.highlighted+"</div>";
+	                content+="</ul>";
+            	});
+            	el.innerHTML = (content);
+
+    			},
+				error: function(jqXHR, textStatus, errorThrown) 
+			    {
+			            
+			    }
+
+    		});
+		event.preventDefault();
 		}
 	});
 
