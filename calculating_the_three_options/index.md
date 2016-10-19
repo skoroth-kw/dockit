@@ -7,7 +7,7 @@ published: true
 
 >This section of Blazewater coding is a critical part that decides how to distribute dollars to each goal, starting with Basic Security and then moving on to the rest of Goal Funding (a section that will be described separately). It performs calculations to show the various possible uses of dollars a client has available to put towards either goals or spending; in other words, the “options” that a client has for using their income. It does NOT discuss stock market derivatives, which are also called “options”.
  
-The first part of this calculation is done in the section titled `Strategy Exercise`, where the three different choices for levels of spending vs. savings are calculated and a discretionary amount of flexible spending has been determined in each option.
+The f this calculation is done in the section titled `Strategy Exercise`, where the three different choices for levels of spending vs. savings are calculated and a discretionary amount of flexible spending has been determined in each option.
  
 The calculation proceeds in this section by understanding just how many dollars are truly available to send towards goals after accounting for some necessary variable costs. To do this, it first looks up a Cost of Living (COL) buffer, which represents an amount of day to day expenses that are essential but variable, and which the client has not reported during the data gathering process, such as food, auto fuel, and basic personal care items.
  
