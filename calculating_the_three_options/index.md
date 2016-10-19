@@ -6,6 +6,7 @@ published: true
 ### Options
 
 >This section of Blazewater coding is a critical part that decides how to distribute dollars to each goal, starting with Basic Security and then moving on to the rest of Goal Funding (a section that will be described separately). It performs calculations to show the various possible uses of dollars a client has available to put towards either goals or spending; in other words, the “options” that a client has for using their income. It does NOT discuss stock market derivatives, which are also called “options”.
+djsfbjsdg
  
 The f this calculation is done in the section titled `Strategy Exercise`, where the three different choices for levels of spending vs. savings are calculated and a discretionary amount of flexible spending has been determined in each option.
  
