@@ -1,6 +1,7 @@
 ---
 layout: doc
 title: Downloading a Template
+published: true
 ---
 
 # How to Download a Template
@@ -14,6 +15,9 @@ Read our [Getting Started](/getting-started/) document for more information.
 
 ## Download the zip file
 
+ dsvg
+ 
+ ds
 To access the code of your chosen template, open the **Developer** tab:
 
 {% include imagecenter.html image="/assets/content/getting-started/template-tab.png" alt="template tab" %}
